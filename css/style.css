@@ -77,13 +77,19 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background-image: url("../img/gunung.jpg");
-    background-size: cover;
+    background-color: #646464;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
+}
+.hero-img{
+    text-align: center;
+}
+.hero-img img{
+    width: 342px;
+    height: auto;
 }
 section{
     padding: 0 19%;
@@ -186,7 +192,7 @@ section{
         text-align: center;
     }
     .hero-img img{
-        width: 560px;
+        width: 342px;
         height: auto;
     }
     .hero{
@@ -230,10 +236,36 @@ section{
     .navlist.open{
         right: 0;
     }
+    .hero-img{
+        text-align: center;
+    }
+    .hero-img img{
+        width: 342px;
+        height: auto;
+    }
 }
 @media (max-width: 680px){
     .hero-img img{
         width: 100%;
         height: auto;
     }
+    .hero-img{
+        text-align: center;
+    }
+    .hero-img img{
+        width: 342px;
+        height: auto;
+    }
+}
+/* Lia */
+.lia{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #a7a7a7;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
 }
