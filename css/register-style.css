@@ -215,3 +215,80 @@ section{
     color: #000000;
     font-size: 9px;
   }
+  @media (max-width: 1535px){
+    header{
+        padding: 15px 3%;
+        transition: .2s;
+    }
+    .logo{
+      padding-left: 170px;
+  }
+    .icons{
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .scroll-down{
+        right: 3%;
+        transition: .2s;
+    }
+}
+@media (max-width: 1460px){
+  section{
+      padding: 0 5.5%;
+      transition: .2s;
+  }
+}
+@media (max-width: 1195px){
+  section{
+      padding-left: 4px;
+      transition: .2s;
+  }
+  .icons{
+      display: none;
+  }
+}
+@media (max-width: 990px){
+  #menu-icon{
+      display: block;
+  }
+  .logo{
+    padding-left: 80px;
+    transition: .2s;
+}
+  .container {
+    top: 30px;
+    left: 310px;
+    transition: .2s;
+  }
+  .navlist{
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      width: 300px;
+      height: 50vh;
+      background: #313131c9;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 50px 20px;
+      transition: all .55s ease;
+  }
+  .navlist a{
+      margin-left: 0;
+      display: block;
+      margin: 7px 0;
+  }
+  .iconsign{
+      display: none;
+  }
+  .login1{
+      display: block;
+  }
+}
+@media (max-width: 680px){
+  .container {
+    top: 30px;
+    left: 180px;
+    transition: .2s;
+  }
+}
